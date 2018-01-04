@@ -13,7 +13,7 @@ Package.describe({
 });
 
 Package.onUse(function(api) {
-  api.use('ecmascript');
+  api.use('ecmascript@0.9.0');
   api.export("Vue");
   api.addFiles('vue.js');
 });

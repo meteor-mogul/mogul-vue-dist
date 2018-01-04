@@ -1,5 +1,13 @@
 # Changelog for mogul-vue-dist
 
+## 2.5.13.1 - (2018-01-04)
+
+meteor publish
+=> Errors while publishing:
+
+While publishing the package:
+error: You must specify a version constraint for package ecmascript
+
 ## 2.5.13 - (2018-01-04)
 
 Still flailing with import / export syntax.
