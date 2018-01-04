@@ -1,5 +1,9 @@
 # Changelog for mogul-vue-dist
 
+## 2.5.13 - (2018-01-04)
+
+Still flailing with import / export syntax.
+
 ## 2.5.12 - (2018-01-04)
 
 Tweaking vue.js file to export Vue so I can import it in meteor apps.
