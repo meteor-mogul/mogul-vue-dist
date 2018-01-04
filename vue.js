@@ -10725,3 +10725,6 @@ Vue$3.compile = compileToFunctions;
 return Vue$3;
 
 })));
+
+/* Export Vue symbol so I can import it in meteor */
+export { Vue };
