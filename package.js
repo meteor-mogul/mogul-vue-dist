@@ -13,9 +13,10 @@ Package.describe({
 });
 
 Package.onUse(function(api) {
-  api.use('ecmascript@0.9.0');
-  api.mainModule('vue.js');
-  api.export("Vue");
+  api.use('ecmascript@0.9.0'); // necessary for export / import of Vue
+                               // NOTE: version constraint required
+  api.mainModule('vue.js');    // mainModule not addFiles
+  api.export("Vue");           // so symbol is available in meteor
 });
 
 Package.onTest(function(api) {
