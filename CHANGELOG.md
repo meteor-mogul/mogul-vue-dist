@@ -1,5 +1,9 @@
 # Changelog for mogul-vue-dist
 
+## 2.5.15 - (2018-01-04)
+
+- Finally figured out meteor package export / import magic
+
 ## 2.5.13.1 - (2018-01-04)
 
 meteor publish

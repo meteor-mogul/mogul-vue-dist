@@ -4,12 +4,18 @@
  * Released under the MIT License.
  */
 (function (global, factory) {
+
+	/* Added by Meteor Mogul
+	   Export Vue symbol so I can import it in meteor */
+
+  // console.log("Attempt #15");
+	export const Vue = factory();
+
+	/*
 	typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory() :
 	typeof define === 'function' && define.amd ? define(factory) :
-	(global.Vue = factory());
+	(global.Vue = factory()); */
 }(this, (function () { 'use strict';
-
-/*  */
 
 var emptyObject = Object.freeze({});
 
@@ -10725,6 +10731,3 @@ Vue$3.compile = compileToFunctions;
 return Vue$3;
 
 })));
-
-/* Export Vue symbol so I can import it in meteor */
-export { Vue };
