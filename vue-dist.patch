@@ -1,0 +1,37 @@
+*** ../../vuejs/vue/dist/vue.js	2018-01-14 14:56:58.714056800 -0500
+--- vue.js	2018-01-14 15:11:36.803654000 -0500
+***************
+*** 4,16 ****
+   * Released under the MIT License.
+   */
+  (function (global, factory) {
+  	typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory() :
+  	typeof define === 'function' && define.amd ? define(factory) :
+! 	(global.Vue = factory());
+  }(this, (function () { 'use strict';
+
+- /*  */
+-
+  var emptyObject = Object.freeze({});
+
+  // these helpers produces better vm code in JS engines due to their
+--- 4,22 ----
+   * Released under the MIT License.
+   */
+  (function (global, factory) {
++
++ 	/* Added by Meteor Mogul
++ 	   Export Vue symbol so I can import it in meteor */
++
++   // console.log("Attempt #15");
++ 	export const Vue = factory();
++
++ 	/*
+  	typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory() :
+  	typeof define === 'function' && define.amd ? define(factory) :
+! 	(global.Vue = factory()); */
+  }(this, (function () { 'use strict';
+
+  var emptyObject = Object.freeze({});
+
+  // these helpers produces better vm code in JS engines due to their
