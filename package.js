@@ -1,8 +1,9 @@
 Package.describe({
   name: 'meteormogul:vue-dist',
-  // This actually uses VueJS version 2.5.13 but bumping version to
-  // get this in Atmosphere with an export of Vue symbol.
-  version: '2.5.16',
+  // This actually uses VueJS version 2.5.16 but bumping version to
+  // get this updated in Atmosphere.  Hopefully VueJS will get to
+  // a higher version soon and then I can keep these numbers in synch.
+  version: '2.5.17',
   // Brief, one-line summary of the package.
   summary: 'Simple binding to Vue.js for Meteor',
   // URL to the Git repository containing the source code for this package.

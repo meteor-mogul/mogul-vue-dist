@@ -1,5 +1,9 @@
 # Changelog for mogul-vue-dist
 
+## [2.5.17] - 2018-03-15
+
+- Update to version 2.5.16 of vue.js
+
 ## [2.5.16] - 2018-01-14
 
 - Bump to version 2.5.13 of vue.js
